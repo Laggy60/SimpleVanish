@@ -1,0 +1,43 @@
+name: Simplevanish
+version: 1.0.0
+main: me.laggy.simplevanish.SimpleVanish
+api-version: '1.21'
+author: Laggy
+description: Simple configurable vanish plugin for Paper 1.21
+
+commands:
+  vanish:
+    description: Main vanish command
+    usage: /<command> [help|list|reload]
+    aliases: [v]
+
+permissions:
+  simplevanish.use:
+    description: Allows player to toggle vanish
+    default: op
+
+  simplevanish.help:
+    description: Allows player to view vanish help
+    default: op
+
+  simplevanish.list:
+    description: Allows player to view vanished players
+    default: op
+
+  simplevanish.reload:
+    description: Allows player to reload the plugin config
+    default: op
+
+  simplevanish.see:
+    description: Allows player to see vanished players
+    default: op
+
+  simplevanish.admin:
+    description: Gives access to all Simplevanish permissions
+    default: op
+    children:
+      simplevanish.use: true
+      simplevanish.help: true
+      simplevanish.list: true
+      simplevanish.reload: true
+      simplevanish.see: true

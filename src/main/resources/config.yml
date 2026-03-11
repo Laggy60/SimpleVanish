@@ -1,0 +1,19 @@
+settings:
+  fake-quit-message-on-vanish: true
+  fake-join-message-on-unvanish: true
+  hide-from-players-with-see-permission: false
+  send-actionbar-on-toggle: true
+  vanish-state-reset-on-reload: false
+
+format:
+  prefix: "&8[&bSimplevanish&8] &7"
+
+list:
+  separator: "&7, "
+
+sounds:
+  enabled: true
+  vanish: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  unvanish: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  volume: 1.0
+  pitch: 1.0

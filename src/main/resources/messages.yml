@@ -1,0 +1,27 @@
+messages:
+  no-permission: "&cYou do not have permission to do that."
+  player-only: "&cOnly players can use this command."
+  reloaded: "&aThe plugin has been reloaded."
+
+  vanish-enabled: "&aYou are now vanished."
+  vanish-disabled: "&cYou are no longer vanished."
+
+  actionbar-enabled: "&aVANISH ENABLED"
+  actionbar-disabled: "&cVANISH DISABLED"
+
+  fake-quit: "&e%player% left the game"
+  fake-join: "&e%player% joined the game"
+
+  help:
+    - "&8&m----------------------------------------"
+    - "&b&lSimpleVanish &7- Commands"
+    - "&7/vanish &8- &fToggle vanish"
+    - "&7/v &8- &fAlias for /vanish"
+    - "&7/vanish help &8- &fShow the help menu"
+    - "&7/vanish list &8- &fView vanished players"
+    - "&7/vanish reload &8- &fReload config and messages"
+    - "&8&m----------------------------------------"
+
+  list:
+    header: "&bVanished players &7(&f%amount%&7): &f%players%"
+    empty: "&cThere are currently no vanished players."
