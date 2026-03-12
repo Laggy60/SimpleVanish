@@ -5,7 +5,7 @@ A lightweight vanish plugin for Spigot/Paper servers.
 ## Features
 - Toggle vanish with /vanish
 - Alias with /v
-- Fake join and quit messages
+- Join and quit messages
 - Actionbar vanish status
 - View vanished players
 - Reload config and messages
